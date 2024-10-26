@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-
 import './App.css';
 import {
   makeAgoricChainStorageWatcher,
@@ -10,6 +9,7 @@ import {
   makeAgoricWalletConnection,
   suggestChain,
 } from '@agoric/web-components';
+
 import { subscribeLatest } from '@agoric/notifier';
 import { makeCopyBag } from '@agoric/store';
 import { Logos } from './components/Logos';
